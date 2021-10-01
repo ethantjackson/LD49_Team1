@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-10-01T16:29:32.750-07:00
+  lastUpdatedAtString: 2021-10-01T16:42:15.381-07:00
   initializedAtString: 2021-10-01T16:29:32.750-07:00
   currentGitRemote:
     name: origin
-    url: https://github.com/ethantjackson/LD49-Team1
+    url: https://github.com/ethantjackson/LD49_Team1
     login: 
     user: 
     host: 
@@ -25,14 +25,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/ethantjackson/LD49_Team1
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/ethantjackson/LD49-Team1
+    url: https://github.com/ethantjackson/LD49_Team1
   currentHead: 
