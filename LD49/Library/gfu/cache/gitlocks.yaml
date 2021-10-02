@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 7
-  lastUpdatedAtString: 2021-10-01T19:05:13.472-07:00
-  initializedAtString: 2021-10-01T16:54:39.159-07:00
-  gitLocks: []
+  lastUpdatedAtString: 2021-10-02T16:16:18.055-07:00
+  initializedAtString: 2021-10-02T15:25:09.700-07:00
+  gitLocks:
+  - id: 990258
+    path: LD49/Assets/BayatGames/Free Platform Game Assets/Tiles/2.5D Tiles/Spring/png/256x256/column_up.png
+    owner:
+      name: jehfoori
+      email: 
+    lockedAtString: 2021-10-02T06:49:06Z
