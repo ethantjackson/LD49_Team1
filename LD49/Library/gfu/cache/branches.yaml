@@ -13,28 +13,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-10-01T16:40:03.742-07:00
-  initializedAtString: 2021-10-01T16:40:03.706-07:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2021-10-01T17:03:45.876-07:00
+  initializedAtString: 2021-10-01T17:03:45.863-07:00
+  localBranches:
+  - name: jbranch
+    tracking: 
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/ethantjackson/LD49-Team1
+    url: https://github.com/ethantjackson/LD49_Team1
     login: 
     user: 
     host: 
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - jbranch
+    - master
+    values:
+    - name: jbranch
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/ethantjackson/LD49_Team1
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/ethantjackson/LD49_Team1
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/ethantjackson/LD49-Team1
+      url: https://github.com/ethantjackson/LD49_Team1
