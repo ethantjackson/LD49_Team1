@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 Base path: '/Applications/2020.3.19f1/Unity.app/Contents', plugins path '/Applications/2020.3.19f1/PlaybackEngines'
+=======
+Base path: '/Applications/Unity/Unity.app/Contents', plugins path '/Applications/Unity/PlaybackEngines'
+>>>>>>> 77297710e186cd908731a817843e4bb63e51e44c
 Cmd: initializeCompiler
 
