@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-10-01T17:29:42.355-07:00
+  lastUpdatedAtString: 2021-10-01T17:33:27.202-07:00
   initializedAtString: 2021-10-01T16:54:46.155-07:00
   entries:
   - path: LD49/Library/gfu/cache/branches.yaml
@@ -22,33 +22,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: LD49/Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/jef/Desktop/unity/LD49_Team1/LD49/Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: LD49/Library/gfu/cache/gitlog.yaml
-    fullPath: /Users/jef/Desktop/unity/LD49_Team1/LD49/Library/gfu/cache/gitlog.yaml
-    projectPath: Library/gfu/cache/gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: LD49/Library/gfu/cache/gitstatusentries.yaml
-    fullPath: /Users/jef/Desktop/unity/LD49_Team1/LD49/Library/gfu/cache/gitstatusentries.yaml
-    projectPath: Library/gfu/cache/gitstatusentries.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: LD49/Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/jef/Desktop/unity/LD49_Team1/LD49/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: LD49/Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/jef/Desktop/unity/LD49_Team1/LD49/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
