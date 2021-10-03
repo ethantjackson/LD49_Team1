@@ -2459,4 +2459,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1823890290}
+  animator: {fileID: 1823890285}
   runSpeed: 40
