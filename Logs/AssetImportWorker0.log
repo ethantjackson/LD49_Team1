@@ -1,0 +1,1065 @@
+Unity Editor version:    2020.3.19f1 (68f137dc9bbe)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jef/Desktop/unity/LD49_Team1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55859
+Successfully changed project path to: /Users/jef/Desktop/unity/LD49_Team1
+/Users/jef/Desktop/unity/LD49_Team1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 116.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jef/Desktop/unity/LD49_Team1/Assets
+GfxDevice: creating device client; threaded=0
+2021-10-02 17:10:55.986 Unity[11786:528276] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-10-02 17:10:55.986 Unity[11786:528276] Metal devices available: 1
+2021-10-02 17:10:55.986 Unity[11786:528276] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-10-02 17:10:55.987 Unity[11786:528276] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/2020.3.19f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56786
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004546 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.339 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3339ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1604ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1345ms)
+			LoadAssemblies (258ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (422ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (428ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.015676 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.019968 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/LD49_Team1.sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/LD49_Team1.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1AB40A12-6F58-866A-8F8E-FC9ABC9582AE}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{A7853BA1-C165-DFFE-DC5B-DF57BDA25251}"
+[C# Project]   007: EndProject
+[C# Project]   008: Global
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/LD49_Team1.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Tests", "Unity.2D.PixelPerfect.Tests.csproj", "{116C54E3-6E64-7A8E-3F6A-136ACEA25811}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{057FB7AF-BE7A-7295-37F8-AC5EC4BC8239}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics", "Unity.Mathematics.csproj", "{DE713A4F-A4F4-A243-836B-5299500E21A4}"
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{31AC9764-E050-FA7B-C798-A322B0550870}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{116C54E3-6E64-7A8E-3F6A-136ACEA25811}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.TestRunner.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.TestRunner.csproj:
+[C# Project]   014:     <ProjectGuid>{68A55045-DA48-2918-712A-63F54BCE5617}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.TestRunner.csproj:
+[C# Project]   014:     <ProjectGuid>{057FB7AF-BE7A-7295-37F8-AC5EC4BC8239}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.csproj:
+[C# Project]   014:     <ProjectGuid>{ECB57CD2-51CE-9D31-631A-4BF6F2B67250}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.csproj:
+[C# Project]   014:     <ProjectGuid>{DE713A4F-A4F4-A243-836B-5299500E21A4}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Triangle.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Triangle.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{0E54AC27-7BA2-C995-2AB6-88F8BC64F6D4}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Triangle.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Triangle.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{8D883028-F120-0A77-39EB-7D788CCABC03}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Triangle.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.UI.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.UI.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{412D058A-898F-884D-7E03-3293AE0BDBB6}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.UI.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.UI.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{8579636F-CB00-998B-5A16-620F09A38123}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.UI.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.Timeline.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.Timeline.csproj:
+[C# Project]   014:     <ProjectGuid>{091FA4C3-16FF-E918-C517-75CD667542D5}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Timeline</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.Timeline.csproj:
+[C# Project]   014:     <ProjectGuid>{B7A30C4C-FA4A-4BAD-90F0-3119A0ECB731}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Timeline</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.UI.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.UI.csproj:
+[C# Project]   014:     <ProjectGuid>{3048C81B-F5A6-AE91-4AF5-7C1900F0B683}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.UI</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/UnityEngine.UI.csproj:
+[C# Project]   014:     <ProjectGuid>{5B2DD618-D003-E1E9-5937-0BF7E2CDD643}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.UI</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.csproj:
+[C# Project]   014:     <ProjectGuid>{EFB52A1B-88CF-D8EC-4B95-E87784D01669}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.csproj:
+[C# Project]   014:     <ProjectGuid>{2B01154C-55A8-249D-15C8-C22660BD2F0C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{A8E8245F-F78F-8081-F0BB-7302CA19994D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{318F9A48-C084-F34A-FAE2-F8D658C5D880}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.IK.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.IK.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{70FB2EEA-6607-AE89-D8E2-4B9D8B69E50D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.IK.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.IK.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{1806F562-63A4-7680-13E6-43F5069FFAD7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.IK.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{CC681FFB-810C-94D4-72AF-79D9EDA265ED}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{C897F0F8-27D9-DABF-A875-6BDA162283EE}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.csproj:
+[C# Project]   014:     <ProjectGuid>{C4C6F70D-EC3C-456F-F520-1D9E4C5923A7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.csproj:
+[C# Project]   014:     <ProjectGuid>{4628B571-F3A9-660C-CC1C-5B2D8C0B968A}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 620
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Assembly-CSharp.csproj:
+[C# Project]   620:  <Reference Include="Unity.2D.Animation.Editor">
+[C# Project]   621:  <HintPath>/Users/jef/Desktop/unity/LD49_Team1/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+[C# Project]   622:  </Reference>
+[C# Project]   623:  <Reference Include="Unity.InternalAPIEngineBridge.001">
+[C# Project]   624:  <HintPath>/Users/jef/Desktop/unity/LD49_Team1/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Assembly-CSharp.csproj:
+[C# Project]   620:   </ItemGroup>
+[C# Project]   621:   <ItemGroup>
+[C# Project]   622:     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+[C# Project]   623:       <Project>{A1DA510A-BD19-DE33-0F91-6F17D352208F}</Project>
+[C# Project]   624:       <Name>Unity.2D.Animation.Editor</Name>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{772C6175-E612-7640-4A04-4B1D0AFAD373}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{F17566AB-9DD3-C3FE-0BB0-3A914A7B96D1}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{82231D99-2F06-B4A0-4510-84253983630D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{B1F31912-60F5-89E9-9FCF-281DE00C60AA}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.InternalAPIEngineBridge.001.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.InternalAPIEngineBridge.001.csproj:
+[C# Project]   014:     <ProjectGuid>{5FCBC7E2-74DC-0D09-1897-74880FA4E446}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.InternalAPIEngineBridge.001</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.InternalAPIEngineBridge.001.csproj:
+[C# Project]   014:     <ProjectGuid>{EBF6F3A0-FFDA-8D59-20E3-576008441D87}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.InternalAPIEngineBridge.001</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.TestRunner.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.TestRunner.csproj:
+[C# Project]   014:     <ProjectGuid>{2C1777B5-A49D-4AF8-3B83-89D3856C519D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.TestRunner</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.TestRunner.csproj:
+[C# Project]   014:     <ProjectGuid>{199FC811-E5BE-CC5A-6ABB-E0C61AC26E9A}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.TestRunner</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.PlasticSCM.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{67B1E91D-4FEB-B339-C4C9-930258A51510}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{1A46DB2A-E4AE-8490-E028-65F175C89EC4}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.UI.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.UI.csproj:
+[C# Project]   014:     <ProjectGuid>{20F1738A-C199-04C2-1C62-500985F0FAF8}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.UI</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.UI.csproj:
+[C# Project]   014:     <ProjectGuid>{058017CB-B61A-68C5-00E2-C42E4C65E6BF}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.UI</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.Timeline.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{38C56DD5-AD76-1CE0-B870-C67ABFC7E837}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.Timeline.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{BAEDBF77-C8FC-7505-D485-35C47C983F36}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.VisualStudio.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.VisualStudio.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{B7F77DFA-4624-97E1-86E9-2650A7883FA1}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.VisualStudio.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{F5EFFF27-D255-EE29-0ED1-CB5063D07678}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Psdimporter.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Psdimporter.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{52AE5B5E-DA3E-0505-6CC6-570DBF9F9DA5}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Psdimporter.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Psdimporter.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{B3771A00-4DD0-46DE-67BB-52DF782E85AD}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Psdimporter.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{CE55A407-9AF0-2F09-B47B-3266EA0AB9E7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{A1DA510A-BD19-DE33-0F91-6F17D352208F}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{85909152-C27F-06B0-A8BA-21BA6FD0E7D0}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{29862AF8-55F2-A7D8-D670-10976F37220A}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{5691BBFA-E367-5CCF-0B8D-835F16802468}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{4AF62B80-E539-2D8C-8E36-1B0E201D2CC7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.CollabProxy.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.CollabProxy.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{DD9ACAEC-A91D-218C-B46D-4702424F537B}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.CollabProxy.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{12352A49-45A8-8249-CD85-42036A004FE1}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/PsdPlugin.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/PsdPlugin.csproj:
+[C# Project]   014:     <ProjectGuid>{29CA66DE-F9DD-04BC-4603-ACCB735B2329}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>PsdPlugin</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/PsdPlugin.csproj:
+[C# Project]   014:     <ProjectGuid>{88A94BFE-2A1E-E2B0-1D61-894B9EFFEC40}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>PsdPlugin</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/DocCodeExamples.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/DocCodeExamples.csproj:
+[C# Project]   014:     <ProjectGuid>{1B3BF07B-1C6A-BAC9-BEB0-FBECEC9595B6}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>DocCodeExamples</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/DocCodeExamples.csproj:
+[C# Project]   014:     <ProjectGuid>{A3906543-D447-8E49-C6C0-F926BC76C00D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>DocCodeExamples</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Path.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Path.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{D43DFDA8-BFB6-790A-2C0E-23FD29B07606}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Path.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Path.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{4E7405F3-CF08-50B4-E13E-76AD8FFEDC8C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Path.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{CB66CBEC-E856-CC3D-34A7-11CCB8D410A7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{03B4DDFA-AAC0-1379-3CB4-7CD070938867}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.PlasticSCM.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{7BECB701-0400-AF73-DC71-D3EEEA02ED34}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.PlasticSCM.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{203FC8C3-4AEF-6C85-555D-C873BABA7EDB}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.PlasticSCM.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.Rider.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.Rider.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{98C3D079-0ABB-3FA0-E6B1-06A47B1E95AC}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Rider.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.Rider.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{0B925FD4-2EEC-E25A-1E77-02912D056D9E}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Rider.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.UI.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{87C1D6E2-08B8-BA63-29DD-E52317699C2C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.UI.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{E532DA9E-10FA-DE0D-1A1D-BA2C7A28F9AA}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.UI.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.CollabProxy.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{9650224B-5118-7579-F7C9-3BA19C5CD190}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.CollabProxy.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{DB062C32-54EB-4FE2-375B-6FF7F7185025}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.CollabProxy.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.IK.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.IK.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{85D797D0-E4DF-E770-966C-E66F307FA902}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.IK.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.IK.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{C380800E-2E95-C234-6CA1-18089BC0F15F}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.IK.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{E2143086-BF99-8F30-904B-14985BDEA108}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.SpriteShape.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{BE9028DA-DCD1-7A66-9204-249CC66C5AD4}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Sprite.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Sprite.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{5034A800-33FD-31A2-AE4C-CE50DCEAFAC8}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Sprite.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Sprite.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{AFE01BE1-D042-D851-C875-12F9A6D12C02}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Sprite.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Tilemap.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Tilemap.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{634CDE9C-EEC7-AA39-0C00-E1CC90031078}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Tilemap.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Tilemap.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{652CDA87-F412-04EA-2EF7-F3104E9F11A3}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Tilemap.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{97E5024D-8913-AEB3-5DF0-7A303BCFA50E}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{8B6D0AD1-E39E-41D7-30ED-D86C07D63B18}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.VSCode.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.VSCode.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{95B867A6-BF54-7A4E-46C3-DCA0AFF35656}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.VSCode.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.VSCode.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{BC58DC49-0737-BE32-642B-0A16B145730D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.VSCode.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{AF75C83A-146C-AE52-6F25-BC87C8EB3BB2}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{F2AEC207-9ED2-D391-5108-E3C87D8A57C5}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Assembly-CSharp-Editor-firstpass.csproj because it has changed
+[C# Project] First difference on line 663
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Assembly-CSharp-Editor-firstpass.csproj:
+[C# Project]   663:  <Reference Include="UnityEngine.TestRunner">
+[C# Project]   664:  <HintPath>/Users/jef/Desktop/unity/LD49_Team1/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+[C# Project]   665:  </Reference>
+[C# Project]   666:  <Reference Include="UnityEditor.TestRunner">
+[C# Project]   667:  <HintPath>/Users/jef/Desktop/unity/LD49_Team1/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Assembly-CSharp-Editor-firstpass.csproj:
+[C# Project]   663:   </ItemGroup>
+[C# Project]   664:   <ItemGroup>
+[C# Project]   665:     <ProjectReference Include="UnityEngine.TestRunner.csproj">
+[C# Project]   666:       <Project>{057FB7AF-BE7A-7295-37F8-AC5EC4BC8239}</Project>
+[C# Project]   667:       <Name>UnityEngine.TestRunner</Name>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{6BC36F91-6195-ED33-9C87-535A4EE46EF5}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.Mathematics.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{6FDED85F-9FF2-7E57-14BB-54206ED9B9ED}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Editor.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{BAAA2F24-D7DA-C00C-0ECA-3264EF56C09D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Editor.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.PixelPerfect.Editor.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{42AB47A0-AD14-99C5-5312-A6178F09E133}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Editor.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{6C05D89B-0BC2-026A-DEC4-E9040918EA01}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Common.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{C668450A-72AA-94D4-DA09-56FABA371FF1}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Path.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Path.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{353A4D20-517F-4AAF-F9A1-77D6A64ED909}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Path.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Path.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{A19A4DA0-F364-390A-C06A-48131849450C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Path.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.InternalAPIEditorBridge.001.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.InternalAPIEditorBridge.001.csproj:
+[C# Project]   014:     <ProjectGuid>{FC6036FC-FCF4-97C9-EB36-1195B7A9699C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.InternalAPIEditorBridge.001</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.InternalAPIEditorBridge.001.csproj:
+[C# Project]   014:     <ProjectGuid>{05CCCDA7-75BA-534A-E7CB-C0B5B078902B}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.InternalAPIEditorBridge.001</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Tilemap.Package.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Tilemap.Package.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{CCDAC30B-2A24-C01D-02CE-A9D2CDD6396D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Tilemap.Package.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Tilemap.Package.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{C73A7B26-0CB6-E96F-A14C-92CEA14DA351}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Tilemap.Package.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Psdimporter.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Psdimporter.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{1662824C-1520-2A48-4D5A-9ED59C9B1A8F}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Psdimporter.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Psdimporter.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{1833860C-EA24-F67C-0CCD-8FB1AAB666B7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Psdimporter.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Sprite.Package.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Sprite.Package.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{96CBA592-8F49-63DD-4C58-5072771EDE9B}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Sprite.Package.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Sprite.Package.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{BDAD884A-669F-A29A-5709-FAC7A4D35AE0}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Sprite.Package.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{9C6A5005-DE87-0522-328D-23FF3864D7E7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Editor.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{2DB361D1-EAE7-E9E3-D22D-97D723B1CB5C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Editor.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{B7836F75-F05C-E975-65A4-76FD290623DA}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/jef/Desktop/unity/LD49_Team1/Unity.2D.Animation.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{4931D774-4EBA-5593-FEFA-98B31C7636AF}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.2 MB.
+System memory in use after: 199.4 MB.
+
+Unloading 117 unused Assets to reduce memory usage. Loaded Objects now: 2617.
+Total: 4.093747 ms (FindLiveObjects: 0.280719 ms CreateObjectMapping: 0.094624 ms MarkObjects: 3.205335 ms  DeleteObjects: 0.512080 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/grassplatform.prefab
+  artifactKey: Guid(16185afc79a81473ba114ae7af8590e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/grassplatform.prefab using Guid(16185afc79a81473ba114ae7af8590e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bbe40714d5cf06253ca139375a3356') in 1.195291 seconds 
+  Import took 1.202952 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2535ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (2176ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2102 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.5 MB.
+System memory in use after: 201.6 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 5.401681 ms (FindLiveObjects: 0.337393 ms CreateObjectMapping: 0.092454 ms MarkObjects: 4.914554 ms  DeleteObjects: 0.056119 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
