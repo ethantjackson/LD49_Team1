@@ -135,4 +135,5 @@ MonoBehaviour:
     - Do you have a favorite flower, doctor?
     - White lillies? (Chuckles) I see you have taste. They are beautiful.
     - Are you going off now? Alright then, have a wonderful day!
-    characterImage: {fileID: 2800000, guid: 42c8308c7671840439e66c89542cf20d, type: 3}
+    characterImage: {fileID: 2800000, guid: be9cbb51ea6954ad3915f7b64245f365, type: 3}
+  isTalking: 0
