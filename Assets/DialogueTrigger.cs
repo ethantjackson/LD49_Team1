@@ -5,7 +5,7 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
-    bool isTalking = false;
+    public bool isTalking = false;
 
     public void TriggerDialogue ()
     {
