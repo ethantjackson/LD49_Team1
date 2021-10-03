@@ -252,6 +252,109 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &466035477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6432895914796040289, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_Name
+      value: 'ShadowSprite '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7763
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: The walls weeping, the faces fuzzy, the words blurring past your head.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: "You\u2019re losing it, doc. You\u2019re spiraling."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 'Can''t handle the stress, can you?
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: "You\u2019ve shut yourself off. Closed your eyes. Covered your ears.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: "You\u2019re retreated. Abandoned the people who needed you as soon
+        as things got rough."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: Your patients are counting on you, and yet here you are, wallowing in
+        self-pity and losing your goddamn mind.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: What the hell is wrong with you, acting like this?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: "Rhetorical question, of course. You\u2019re a doctor, you\u2019ve spent
+        half your life figuring out what\u2019s wrong with others."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: "Of course you know what\u2019s wrong with you. But you can\u2019t fix
+        it, can you?"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
 --- !u!1 &689466827
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,7 +738,7 @@ RectTransform:
   - {fileID: 835561516}
   - {fileID: 457184815}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -684,7 +787,7 @@ Transform:
   m_Children:
   - {fileID: 1551243952}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1389421661
 GameObject:
@@ -750,7 +853,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1408198788
 GameObject:
@@ -786,7 +889,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 208, y: 132}
+  m_AnchoredPosition: {x: 218, y: 130.81}
   m_SizeDelta: {x: 202.83, y: 202.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408198790
@@ -905,7 +1008,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1423638430
 Animator:
@@ -956,118 +1059,6 @@ Transform:
   m_Father: {fileID: 1823890287}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1545575558
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6432895914796040289, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_Name
-      value: 'ShadowSprite '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.2991247
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.74081755
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: What a pretty picture!
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: Amiable nurses and accommodating patients, all being serviced by such
-        a dedicated doctor!
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: How does it feel, working in such bliss?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: How does it feel, lying to yourself?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
-      value: "This serene, this calm. It\u2019s nice while it lasts, isn\u2019t it?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: "But it won\u2019t last. And you know it. I know it."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: Nothing lasts. Nothing.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: Ah, did you hear that? Did you see that?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[8]
-      value: No, nothing - a slip of the tongue, a wink of the eye, a twist of the
-        lips!
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[9]
-      value: "Everything\u2019s fine, isn\u2019t it? Isn\u2019t it? Isn\u2019t it?\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[10]
-      value: 'You keep saying that, over and over again. Are you trying to convince
-        yourself? '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[11]
-      value: "Smart. But you should have been smarter.\n "
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
 --- !u!1 &1551243951
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,7 +2221,7 @@ Transform:
   - {fileID: 1487658613}
   - {fileID: 208128816}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1823890288
 Rigidbody2D:
