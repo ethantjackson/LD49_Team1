@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     DialogueTrigger dialogueTrigger = null;
     public DialogueManager dialogueManager;
 
+    public LevelLoader levelLoader;
+
     // Update is called once per frame
     void Update()
     {
@@ -36,6 +38,10 @@ public class PlayerMovement : MonoBehaviour
         {
             dialogueManager.ShowPrompt();
             dialogueTrigger = other.GetComponent<DialogueTrigger>();
+        }
+        if (other.tag == "Door")
+        {
+            FindObjectOfType<LevelLoader>().LoadNextLevel();
         }
     }
 
