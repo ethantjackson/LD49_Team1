@@ -5,9 +5,17 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
+    bool isTalking = false;
 
     public void TriggerDialogue ()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        if (!isTalking)
+        {
+            isTalking = true;
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        } else
+        {
+            isTalking = FindObjectOfType<DialogueManager>().DisplayNextSentence();
+        }
     }
 }

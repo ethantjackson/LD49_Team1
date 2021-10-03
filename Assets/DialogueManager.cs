@@ -5,21 +5,26 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    public Text promptText;
     public Text nameText;
     public Text dialogueText;
+    public RawImage characterImage;
 
     public Animator animator;
 
     Queue<string> sentences;
     void Start()
     {
+        HidePrompt();
         sentences = new Queue<string>();
     }
 
     public void StartDialogue (Dialogue dialogue)
     {
+        HidePrompt();
         animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
+        characterImage.texture = dialogue.characterImage;
 
         sentences.Clear();
 
@@ -31,17 +36,18 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
-    public void DisplayNextSentence()
+    public bool DisplayNextSentence()
     {
         if (sentences.Count == 0)
         {
             EndDialogue();
-            return;
+            return false;
         }
 
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+        return true;
     }
 
     IEnumerator TypeSentence (string sentence)
@@ -56,6 +62,16 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue ()
     {
+        ShowPrompt();
         animator.SetBool("IsOpen", false);
+    }
+
+    public void ShowPrompt ()
+    {
+        promptText.enabled = true;
+    }
+    public void HidePrompt ()
+    {
+        promptText.enabled = false;
     }
 }
