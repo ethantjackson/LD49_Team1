@@ -229,7 +229,7 @@ MonoBehaviour:
   controller: {fileID: 788410259585039100}
   animator: {fileID: 788410259585039075}
   runSpeed: 100
-  dialogueManager: {fileID: 0}
+  dialogueManager: {fileID: 5068829429155658055, guid: 55d418fe4ca1c4d0eb3c58dad6b768d5, type: 3}
 --- !u!1 &788410260108307105
 GameObject:
   m_ObjectHideFlags: 0
