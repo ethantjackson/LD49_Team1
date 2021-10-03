@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
+    public Animator animator;
     float horizontalMove = 0f;
     public float runSpeed = 40f;
 
@@ -20,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
         {
             dialogueTrigger.TriggerDialogue();
         }
+        
+        animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
     }
 
     void FixedUpdate()
