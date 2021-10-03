@@ -52,7 +52,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.y
-    path: RawImage
+    path: CharacterImage
     classID: 224
     script: {fileID: 0}
   - curve:
@@ -60,7 +60,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 209.5
+        value: 213.9
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -71,7 +71,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.x
-    path: RawImage
+    path: CharacterImage
     classID: 224
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -90,14 +90,14 @@ AnimationClip:
       customType: 28
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2333707708
+      path: 2202089216
       attribute: 538195251
       script: {fileID: 0}
       typeID: 224
       customType: 28
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2333707708
+      path: 2202089216
       attribute: 1460864421
       script: {fileID: 0}
       typeID: 224
@@ -160,7 +160,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.y
-    path: RawImage
+    path: CharacterImage
     classID: 224
     script: {fileID: 0}
   - curve:
@@ -168,7 +168,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 209.5
+        value: 213.9
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -179,7 +179,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.x
-    path: RawImage
+    path: CharacterImage
     classID: 224
     script: {fileID: 0}
   m_EulerEditorCurves: []
