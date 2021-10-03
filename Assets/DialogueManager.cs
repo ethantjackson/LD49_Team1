@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public Text promptText;
+    public Text continueText;
     public Text nameText;
     public Text dialogueText;
     public RawImage characterImage;
@@ -13,9 +14,11 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
 
     Queue<string> sentences;
+    bool waitText = false;
     void Start()
     {
         HidePrompt();
+        continueText.enabled = false;
         sentences = new Queue<string>();
     }
 
@@ -38,16 +41,43 @@ public class DialogueManager : MonoBehaviour
 
     public bool DisplayNextSentence()
     {
-        if (sentences.Count == 0)
+        if (!waitText)
         {
-            EndDialogue();
-            return false;
-        }
+            continueText.enabled = false;
+            if (sentences.Count == 0)
+            {
+                EndDialogue();
+                return false;
+            }
 
-        string sentence = sentences.Dequeue();
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+            string sentence = sentences.Dequeue();
+            StopAllCoroutines();
+            if (sentence[0] != '(')
+            {
+                waitText = true;
+                StartCoroutine(TypeSentence(sentence));
+                return true;
+            }
+            else
+            {
+                waitText = true;
+                StartCoroutine(ShowMessage(sentence, 2));
+                return true;
+            }
+        }
         return true;
+    }
+
+    IEnumerator ShowMessage(string message, float delay)
+    {
+        promptText.text = message;
+        promptText.enabled = true;
+        yield return new WaitForSeconds(delay);
+        //yield return null;
+        promptText.enabled = false;
+        promptText.text = "Press \"E\"";
+        waitText = false;
+        continueText.enabled = true;
     }
 
     IEnumerator TypeSentence (string sentence)
@@ -58,6 +88,8 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             yield return new WaitForSeconds(.02f);
         }
+        waitText = false;
+        continueText.enabled = true;
     }
 
     void EndDialogue ()
