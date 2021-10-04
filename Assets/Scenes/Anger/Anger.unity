@@ -1145,56 +1145,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.characterImage
-      value: 
-      objectReference: {fileID: 2800000, guid: 984fc9c0468534f67b2dcc753a84b8d4, type: 3}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: Ah... doctor.
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: (w h a t   n o w ?)
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: "I\u2019ve heard there\u2019s been a change of plans. You know, don't
-        you? "
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: '(d i d   y o u   a l w a y s   k n o w ?) '
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
-      value: "We both know. It\u2019s risky. But I don\u2019t exactly have another
-        choice, do I?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: (i   d i d n ' t   a s k   f o r   t h i s)
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: ...
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: I wish... there was something else I -
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[8]
-      value: (y o u)
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[9]
-      value: '- could''ve done.'
-      objectReference: {fileID: 0}
     - target: {fileID: 650763707621025826, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_Name
       value: EllaFaunSprite
@@ -1205,19 +1155,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.0528939
+      value: 1.0648792
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.7854626
+      value: 1.1572646
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.4
+      value: 18.7457
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.62
+      value: -0.9258
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.z

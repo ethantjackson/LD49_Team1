@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3457176578941064235, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3457176578941064235, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -246,7 +246,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 20
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
@@ -254,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: (I'm sorry)
+      value: (i'm sorry)
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
@@ -262,81 +262,92 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: "(Why? I-I couldn\u2019t save you. I killed you. You trusted me, and
-        I FAILED you)"
+      value: "(why? i... couldn\u2019t save you) "
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: "Doctor, you didn\u2019t fail anyone. There\u2019s a risk in everything."
+      value: '(i killed you. you trusted me...) '
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[5]
-      value: We knew the risks. We gambled. We lost.
+      value: (and i failed you)
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[6]
-      value: "We can\u2019t change that. But you did everything you could."
+      value: "Doctor, you didn\u2019t fail anyone. There\u2019s a risk in everything."
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[7]
-      value: "If anything, I\u2019m sorry."
+      value: We knew the risks. We gambled. We lost.
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[8]
-      value: "(What? After everything that\u2019s happened, how could YOU be sorry?)"
+      value: "We can\u2019t change that. But you did everything you could."
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.data[9]
+      value: "If anything, I\u2019m sorry."
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: (what?)
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: (after everything that's happened...)
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: (how could YOU be sorry?)
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[13]
       value: "Because, I\u2019m the one who had to teach you this lesson. Doctor,
         if you could save everyone, what would you be?\n"
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[10]
-      value: (A good doctor)
+      propertyPath: dialogue.sentences.Array.data[14]
+      value: (a good doctor)
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[11]
+      propertyPath: dialogue.sentences.Array.data[15]
       value: "An impossibly good doctor. You\u2019d be a god. But we're not gods.
         We\u2019re human, and we\u2019re beautifully human."
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[12]
+      propertyPath: dialogue.sentences.Array.data[16]
       value: "We\u2019re not perfect, and I don\u2019t think we ever will be. But
         we do what we can."
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[13]
+      propertyPath: dialogue.sentences.Array.data[17]
       value: "We push. We don\u2019t stop. And that\u2019s the most anyone can ever
         ask for."
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[14]
-      value: "(So\u2026 what do I do now?)"
+      propertyPath: dialogue.sentences.Array.data[18]
+      value: "(so\u2026 what do i do now?)"
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[15]
-      value: "(Chuckles)\nYou\u2019re the doctor here. What do you think?\n"
+      propertyPath: dialogue.sentences.Array.data[19]
+      value: "You\u2019re (Chuckles) the doctor here. What do you think?\n"
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[16]
+      propertyPath: dialogue.sentences.Array.data[20]
       value: "You still have other patients who need you. Your work isn\u2019t done
         yet."
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[17]
+      propertyPath: dialogue.sentences.Array.data[21]
       value: "You know better than anyone else that wounds don\u2019t heal immediately."
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[18]
+      propertyPath: dialogue.sentences.Array.data[22]
       value: "I know this hurts, and it won\u2019t stop hurting for a long time.
         But, if it helps you, even just a little bit\u2026\n"
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[19]
-      value: I forgive you.
-      objectReference: {fileID: 0}
-    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
-      propertyPath: dialogue.sentences.Array.data[20]
+      propertyPath: dialogue.sentences.Array.data[23]
       value: I forgive you.
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025826, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
@@ -345,23 +356,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.9657313
+      value: 1.2794037
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6872513
+      value: 1.1534562
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.7508
+      value: -21.5272
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8011
+      value: -1.0245
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -406,7 +417,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -471,7 +482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_AnchorMax.x
@@ -625,7 +636,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4955041610906197174, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197174, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -673,7 +684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197175, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: charactersLeft.Array.data[0]
-      value: DOUBLE
+      value: ELLA FAUN
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197175, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: charactersLeft.Array.data[1]
@@ -824,7 +835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 540490858096391853, guid: 32e1353fec6824261aeef4b2cf567978, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 540490858096391853, guid: 32e1353fec6824261aeef4b2cf567978, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1102,7 +1113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.708035
+      value: -28.70433
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1226,7 +1237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3538230970551833424, guid: 8befe4e4ac7aa42b1a008001211c15af, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3538230970551833424, guid: 8befe4e4ac7aa42b1a008001211c15af, type: 3}
       propertyPath: m_LocalPosition.x

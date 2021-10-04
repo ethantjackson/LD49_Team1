@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -193,7 +193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3538230970551833424, guid: 8befe4e4ac7aa42b1a008001211c15af, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3538230970551833424, guid: 8befe4e4ac7aa42b1a008001211c15af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 540490858096391853, guid: 32e1353fec6824261aeef4b2cf567978, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 540490858096391853, guid: 32e1353fec6824261aeef4b2cf567978, type: 3}
       propertyPath: m_LocalPosition.x
@@ -417,7 +417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -536,7 +536,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -597,7 +597,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5068829429155658052, guid: 55d418fe4ca1c4d0eb3c58dad6b768d5, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5068829429155658052, guid: 55d418fe4ca1c4d0eb3c58dad6b768d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -881,29 +881,71 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: "Oh, hello doctor. I didn\u2019t notice you came in."
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: "The hospital gardens are beautiful, aren\u2019t they?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: "It reminds me of my mother\u2019s old garden. She used to grow the
+        most gorgeous asclepias flowers."
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: "When I was younger, I\u2019d always skip around in them. She\u2019d
+        get so angry at me for stepping on everything."
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: Do you have a favorite flower, doctor?
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: White lillies? (Chuckles) I see you have taste. They are beautiful.
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: Are you going off now? Alright then, have a wonderful day!
+      objectReference: {fileID: 0}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: '- could''ve done.'
+      objectReference: {fileID: 0}
     - target: {fileID: 650763707621025826, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_Name
       value: EllaFaunSprite
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.4484558
+      value: 1.1317332
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.7621969
+      value: 1.1477971
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.12
+      value: 28.2633
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.65
+      value: -1.1024
       objectReference: {fileID: 0}
     - target: {fileID: 650763707621025854, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -948,7 +990,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7709453781141361203, guid: f5745257fdb1b424eb1bb0eb81fe811f, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7709453781141361203, guid: f5745257fdb1b424eb1bb0eb81fe811f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1411,7 +1453,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1347431855167978054, guid: 01f17c790fcc59d469914446d52faf25, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1347431855167978054, guid: 01f17c790fcc59d469914446d52faf25, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1472,7 +1514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8174047461530054924, guid: 3d5755e7e3a13c540abf49b4857c74b6, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8174047461530054924, guid: 3d5755e7e3a13c540abf49b4857c74b6, type: 3}
       propertyPath: m_LocalPosition.x
