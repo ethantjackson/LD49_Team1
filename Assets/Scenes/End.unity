@@ -818,19 +818,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.9304
+      value: 1.0371442
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.0819
+      value: 1.2083347
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.93
+      value: -18.9591
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.42
+      value: -0.95
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -866,7 +866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232899, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232899, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
@@ -878,15 +878,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232899, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "(Ah. Of course. I\u2019ll be right there.)"
+      value: (Ah. Of course.)
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232899, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: "Absolutely. And\u2026 are you okay?"
+      value: " (I\u2019ll be right there.)"
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232899, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: "(Thank you for asking. I\u2026 I\u2019ll be alright.)"
+      value: "Absolutely. And\u2026 are you okay?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5524006296360232899, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: (Thank you for asking.)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5524006296360232899, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: "(I\u2026 I\u2019ll be alright.)"
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232900, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_Name
@@ -1033,11 +1041,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.708035
+      value: -28.70433
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.020784378
+      value: 0.020783663
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.z
