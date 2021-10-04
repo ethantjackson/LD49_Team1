@@ -1232,6 +1232,46 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_Value
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 102900000, guid: fa0893a50891c4f169b9b595f7bfdbed, type: 3}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: SoundManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809324568106243486, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3809324568126249820, guid: 7b0d413a689b44a98b155dbccebe08b4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
