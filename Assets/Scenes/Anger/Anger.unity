@@ -600,7 +600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_AnchorMax.x
@@ -901,7 +901,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1520026545 stripped
 PolygonCollider2D:
@@ -1024,8 +1024,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background
       objectReference: {fileID: 0}
+    - target: {fileID: 4053081248950358032, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9546080f254c15549b19945037519f16, type: 3}
+    - target: {fileID: 6978119094833242341, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+      propertyPath: musicBPM
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978119094833242341, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+      propertyPath: barsLength
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978119094833242341, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+      propertyPath: timeSignature
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978119094833242341, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+      propertyPath: musicSources.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978119094833242341, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+      propertyPath: musicSources.Array.data[0]
+      value: 
+      objectReference: {fileID: 2141491998}
+    - target: {fileID: 6978119094833242341, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+      propertyPath: musicSources.Array.data[1]
+      value: 
+      objectReference: {fileID: 2141491997}
+    - target: {fileID: 8635288093941195010, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9546080f254c15549b19945037519f16, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+--- !u!82 &2141491997 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4053081248950358032, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+  m_PrefabInstance: {fileID: 2141491996}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2141491998 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8635288093941195010, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+  m_PrefabInstance: {fileID: 2141491996}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2145213471
 PrefabInstance:
   m_ObjectHideFlags: 0
