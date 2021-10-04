@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3469984725915932095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.1045, y: -1.3158, z: 0}
-  m_LocalScale: {x: 0.2439235, y: 0.23626868, z: 1}
+  m_LocalScale: {x: 1.4893205, y: 1.2518176, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,18 +97,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.9525738, y: 0}
+  m_Offset: {x: -0.14477992, y: -0.13288975}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.4, y: 7.91}
+    oldSize: {x: 2, y: 4.5}
     newSize: {x: 8.4, y: 7.91}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.363565, y: 7.91}
+  m_Size: {x: 4.9233575, y: 4.7206573}
   m_EdgeRadius: 0
 --- !u!114 &3469984725915932088
 MonoBehaviour:
@@ -122,12 +122,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f46756f33360284fa5affdeaad2f3dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoader: {fileID: 0}
   dialogue:
     name: ROB MILLER
     sentences:
-    - Oh, hello! Morning rounds?
-    - The nurses have been so kind to me. Be sure to give them my thanks. And you,
-      of course.
-    - "Things are going well, I believe. Because of you, hopefully I\u2019ll be able
-      to get out of here soon."
-    characterImage: {fileID: 2800000, guid: fe957901e1ad943d7832b995200f915b, type: 3}
+    - Surely these rounds must get boring for you?
+    - (g e t   o u t)
+    - "I know I know, the nurses have already told me. But I feel fine. I\u2019m
+      sure it was just a mistake - "
+    - (t h a t   y o u   m a d e)
+    - I feel fine.
+    - "It\u2019s not eating, it\u2019s the food. I\u2019m telling you it\u2019s just
+      the nasty quality. \n"
+    - "I do wish you would stop questioning me about it. \n"
+    - (l e a v e   m e   t o   r o t)
+    characterImage: {fileID: 2800000, guid: 41739389dce109640bcb070c24ab7044, type: 3}
+  isTalking: 0
+  visited: 0
