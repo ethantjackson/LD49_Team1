@@ -296,6 +296,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4955041610906197175, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
+      propertyPath: charactersLeft.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197176, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: m_Name
       value: LevelLoader
@@ -652,7 +656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.720213
+      value: -28.456684
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.y
