@@ -684,7 +684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197175, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: charactersLeft.Array.data[0]
-      value: DOUBLE
+      value: ELLA FAUN
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197175, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: charactersLeft.Array.data[1]
