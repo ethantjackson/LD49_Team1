@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8936641782033869120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.36, y: -1.53, z: 0}
-  m_LocalScale: {x: 0.3564, y: 0.3489, z: 1}
+  m_LocalPosition: {x: -2.1004, y: -1.0432, z: 0}
+  m_LocalScale: {x: 1.2095504, y: 1.2542955, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,18 +97,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3307395, y: 0}
+  m_Offset: {x: -0.05605173, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.5, y: 4.5}
+    oldSize: {x: 2, y: 4.5}
     newSize: {x: 4.5, y: 4.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.807399, y: 4.5}
+  m_Size: {x: 3.747507, y: 4.5}
   m_EdgeRadius: 0
 --- !u!114 &8936641782033869121
 MonoBehaviour:
@@ -122,13 +122,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f46756f33360284fa5affdeaad2f3dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoader: {fileID: 0}
   dialogue:
     name: JACK WENTON
     sentences:
-    - "Mornin\u2019, doc. Thanks for stoppin\u2019 by."
-    - Days seem to pass so slowly here. Do you feel it too?
-    - "What am I saying, you\u2019re a doctor. You\u2019re probably busy running
-      all around the place, checkin\u2019 up on us."
-    - "I don\u2019t wanna hold you up. I\u2019m feeling just fine. I\u2019ll be sure
-      to call you if I need you. Thanks, doc. Seriously."
-    characterImage: {fileID: 2800000, guid: a3282ba81022746e6a39d6c8924b641a, type: 3}
+    - "Doc! Have you heard? It\u2019s workin\u2019, my new medication is actually
+      workin\u2019!"
+    - "I mean, it\u2019s all \u2018preliminary results\u2019 and shit, so I probably
+      shouldn\u2019t be gettin\u2019 my hopes up, but man."
+    - "I can\u2019t believe it. I mean, it\u2019s been so long, it almost feels like
+      a goddamn miracle, y\u2019know?"
+    - "Thanks for not givin\u2019 up on me, Doc. I mean it."
+    characterImage: {fileID: 2800000, guid: 6f962dfff6e8d5c41bf7ecfe82e17cae, type: 3}
+  isTalking: 0
+  visited: 0

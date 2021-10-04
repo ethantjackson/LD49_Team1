@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 788410259585039073, guid: 1e56b448698264e45a4b6d2e84796448, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 788410259585039073, guid: 1e56b448698264e45a4b6d2e84796448, type: 3}
       propertyPath: m_LocalPosition.x
@@ -193,7 +193,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5068829429155658052, guid: 55d418fe4ca1c4d0eb3c58dad6b768d5, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5068829429155658052, guid: 55d418fe4ca1c4d0eb3c58dad6b768d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -276,6 +276,88 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4d88c5f3aa3dfe4f86988f6d3439fb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &395962112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 395962114}
+  - component: {fileID: 395962113}
+  m_Layer: 0
+  m_Name: whiteFlowers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &395962113
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395962112}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 4829663da8147d942b3499250e355698, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 4.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &395962114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395962112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.04, y: -1.62, z: 0}
+  m_LocalScale: {x: 1.6595, y: 1.5618, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &405802140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -285,7 +367,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1347431855167978054, guid: 01f17c790fcc59d469914446d52faf25, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1347431855167978054, guid: 01f17c790fcc59d469914446d52faf25, type: 3}
       propertyPath: m_LocalPosition.x
@@ -342,7 +424,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4955041610906197174, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197174, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -403,8 +485,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3193095400600410574, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -591.6904
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193095400600410574, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0025634766
+      objectReference: {fileID: 0}
+    - target: {fileID: 3193095400600410574, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -15.600037
+      value: 295.84717
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_Pivot.x
@@ -683,7 +773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 540490858096391853, guid: 32e1353fec6824261aeef4b2cf567978, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 540490858096391853, guid: 32e1353fec6824261aeef4b2cf567978, type: 3}
       propertyPath: m_LocalPosition.x
@@ -744,7 +834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.708035
+      value: -28.70433
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -797,7 +887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3457176578941064235, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3457176578941064235, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -977,7 +1067,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3538230970551833424, guid: 8befe4e4ac7aa42b1a008001211c15af, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3538230970551833424, guid: 8befe4e4ac7aa42b1a008001211c15af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1238,7 +1328,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1354,72 +1444,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.characterImage
-      value: 
-      objectReference: {fileID: 2800000, guid: 354095b163938694f81577ce255e500d, type: 3}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: "Oh, doctor! I just got off the phone; my grandchildren say they\u2019ll
-        be coming over to visit."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: "Alex, and little Maggie\u2026 they must be five and three years old
-        by now."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: "I haven\u2019t seen them in so long; I\u2019m sure it\u2019ll do me
-        a world of good, seeing their faces."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: Why, I can almost feel my strength returning to me again!
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
-      value: "Wait - doctor, what\u2019s happened? Why do you look so pale?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: "Wait - doctor, what\u2019s happened? Why do you look so pale?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: (l e a v e   m e   t o   r o t)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: (l e a v e   m e   t o   r o t)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[8]
-      value: (l e a v e   m e   t o   r o t)
-      objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.65431464
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.74144304
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.12
+      value: 10.94
       objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.51
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1470,68 +1505,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: JackWentonSprite
       objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.characterImage
-      value: 
-      objectReference: {fileID: 2800000, guid: 6f962dfff6e8d5c41bf7ecfe82e17cae, type: 3}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: "Doc! Have you heard? It\u2019s workin\u2019, my new medication is actually
-        workin\u2019!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: "I mean, it\u2019s all \u2018preliminary results\u2019 and shit, so
-        I probably shouldn\u2019t be gettin\u2019 my hopes up, but man."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: "I can\u2019t believe it. I mean, it\u2019s been so long, it almost
-        feels like a goddamn miracle, y\u2019know?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: "Thanks for not givin\u2019 up on me, Doc. I mean it."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
-      value: "Are ya feelin\u2019 alright?\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: "Are ya feelin\u2019 alright?\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: "Are ya feelin\u2019 alright?\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: "Are ya feelin\u2019 alright?\n"
-      objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2095504
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2542955
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.27
+      value: -8.73
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.76
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.z
