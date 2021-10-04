@@ -1122,7 +1122,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1717658719
 PrefabInstance:
@@ -1617,6 +1617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JackWentonSprite
       objectReference: {fileID: 0}
+    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
+      propertyPath: dialogue.characterImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 0ccfd1c61c3969b45b2bfcb86c700328, type: 3}
     - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 7
