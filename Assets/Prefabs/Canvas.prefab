@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 0.70980394}
+  m_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 0.9137255}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -129,7 +129,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 4534483116633357953}
+  - {fileID: 3193095400600410574}
   - {fileID: 4534483115919425666}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0.87058824}
+  m_Color: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -606,8 +606,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9117dc76309448389c5e4e56156f9bd, type: 3}
---- !u!224 &4534483116633357953 stripped
+--- !u!224 &3193095400600410574 stripped
 RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2407686354553395737, guid: c9117dc76309448389c5e4e56156f9bd, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3734696836676631894, guid: c9117dc76309448389c5e4e56156f9bd, type: 3}
   m_PrefabInstance: {fileID: 2271056269682549912}
   m_PrefabAsset: {fileID: 0}
