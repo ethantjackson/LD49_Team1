@@ -882,6 +882,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.characterImage
+      value: 
+      objectReference: {fileID: 2800000, guid: be9cbb51ea6954ad3915f7b64245f365, type: 3}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 8
       objectReference: {fileID: 0}
@@ -1327,23 +1331,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7346
+      value: 0.97840196
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.969
+      value: 1.214777
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.8936
+      value: -20.23
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.4599
+      value: -0.97
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.z

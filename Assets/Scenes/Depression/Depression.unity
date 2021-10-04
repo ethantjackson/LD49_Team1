@@ -268,7 +268,7 @@ Transform:
   m_LocalScale: {x: 1.54, y: 1.789, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20}
 --- !u!1001 &674359004
 PrefabInstance:
@@ -534,7 +534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1009,63 +1009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dabfd5c4e2a83be4ebce295252134e10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1499764666
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 511829135187869108, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8298171867822352542, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
-      propertyPath: m_Name
-      value: start of hallway door - overlay - lobby to hallway
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 540ff2a5483df3d4da9aedee81fa50c1, type: 3}
 --- !u!1001 &1549330100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1141,7 +1084,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1413,19 +1356,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.0192
+      value: 1.0277216
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.8232
+      value: 1.1959153
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.23
+      value: -20.544
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.87
+      value: -1.0312
       objectReference: {fileID: 0}
     - target: {fileID: 5524006296360232897, guid: 9bcfb3c4b3f5d4173a4989ea1fa289d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1489,6 +1432,10 @@ PrefabInstance:
       value: JackWentonSprite
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
+      propertyPath: dialogue.characterImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 0ecb2d968bdfcf24480bc682c52c38ec, type: 3}
+    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -1523,11 +1470,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.6075
+      value: -12.51
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0692
+      value: -0.87
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.z
