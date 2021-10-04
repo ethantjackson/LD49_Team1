@@ -44,6 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae81be463dc7c483687b9fd2496e2421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charactersLeft:
+  - NURSE
+  - JACK WENTON
+  - ROB MILLER
+  - ELLA FAUN
   transition: {fileID: 4955041611347427029}
   transitionTime: 1
 --- !u!1 &4955041611347427031
