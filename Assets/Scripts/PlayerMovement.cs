@@ -24,9 +24,13 @@ public class PlayerMovement : MonoBehaviour
         if (dialogueTrigger == null || dialogueTrigger.isTalking == false)
         {
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
             animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
         }
+    }
+
+    public float getMovement()
+    {
+        return horizontalMove;
     }
 
     void FixedUpdate()
