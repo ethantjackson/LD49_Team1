@@ -15,16 +15,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E) && dialogueTrigger != null)
+        {
+            dialogueTrigger.TriggerDialogue();
+            horizontalMove = 0f;
+        }
+
         if (dialogueTrigger == null || dialogueTrigger.isTalking == false)
         {
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
             animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-        }
-
-        if (Input.GetKeyDown(KeyCode.E) && dialogueTrigger != null)
-        {
-            dialogueTrigger.TriggerDialogue();
         }
     }
 
