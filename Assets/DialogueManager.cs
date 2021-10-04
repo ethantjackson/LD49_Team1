@@ -112,7 +112,7 @@ public class DialogueManager : MonoBehaviour
 
         if(nameText.text == "NURSE" && SceneManager.GetActiveScene().buildIndex == 15 && waitText == false)
         {
-            FindObjectOfType<LevelLoader>().LoadNextLevel(); //load credits
+            FindObjectOfType<LevelLoader>().LoadNextLevel(); 
         }
     }
 
