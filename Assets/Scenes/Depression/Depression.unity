@@ -675,11 +675,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.590353
+      value: -19.318752
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.043576956
+      value: 0.051184177
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1310,70 +1310,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: JackWentonSprite
       objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.characterImage
-      value: 
-      objectReference: {fileID: 2800000, guid: 0ecb2d968bdfcf24480bc682c52c38ec, type: 3}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: "Damn these bandages! Oh shit, sorry, didn\u2019t see ya there doc."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: "Hey, d\u2019you think I could be discharged from here anytime soon?
-        I\u2019m feelin\u2019 better, I really am!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: "I mean, I\u2019ve been in here for so long, I\u2019ll be losin\u2019
-        my mind next.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: "Of course I trust you but I also wanna know what's goin\u2019 on, yeah?
-        You\u2019d tell me, it\u2019s your job after all, right?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
-      value: "And I mean, if I\u2019ve already gone this long without improvement...
-        \n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: "I don\u2019t think stayin\u2019 for another three months is really
-        gonna make any difference\u2026"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: "Hey, wait a minute. You\u2019re lookin\u2019 kinda funny there, doc."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869121, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: "Are ya feelin\u2019 alright?\n"
-      objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7288024
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.71151173
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.1
+      value: -12.6075
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.17
+      value: -1.0692
       objectReference: {fileID: 0}
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1406,18 +1353,6 @@ PrefabInstance:
     - target: {fileID: 8936641782033869124, guid: 091c6562046d44530b4056ed316637d8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869126, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: m_Size.x
-      value: 6.7836294
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869126, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8936641782033869126, guid: 091c6562046d44530b4056ed316637d8, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.18114519
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 091c6562046d44530b4056ed316637d8, type: 3}
