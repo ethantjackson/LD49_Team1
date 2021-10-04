@@ -402,6 +402,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3193095400600410574, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -15.600037
+      objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1114,8 +1118,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4593804412716176079, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1748879382}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+--- !u!20 &1748879382 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 9175617799281935948, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
+  m_PrefabInstance: {fileID: 914185788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1951179967
 PrefabInstance:
   m_ObjectHideFlags: 0
