@@ -1221,71 +1221,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.characterImage
-      value: 
-      objectReference: {fileID: 2800000, guid: 41739389dce109640bcb070c24ab7044, type: 3}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: Surely these rounds must get boring for you?
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: (g e t   o u t)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: "I know I know, the nurses have already told me. But I feel fine. I\u2019m
-        sure it was just a mistake - "
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: (t h a t   y o u   m a d e)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
-      value: I feel fine.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: "It\u2019s not eating, it\u2019s the food. I\u2019m telling you it\u2019s
-        just the nasty quality. \n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: "I do wish you would stop questioning me about it. \n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: (l e a v e   m e   t o   r o t)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469984725915932088, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
-      propertyPath: dialogue.sentences.Array.data[8]
-      value: (l e a v e   m e   t o   r o t)
-      objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4754313
+      value: 1.7210587
       objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5952317
+      value: 1.4062918
       objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1
+      value: 1.0317
       objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.45
+      value: -0.3824
       objectReference: {fileID: 0}
     - target: {fileID: 3469984725915932091, guid: fbeb35246afb847feb5948638ba940d3, type: 3}
       propertyPath: m_LocalPosition.z
