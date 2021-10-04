@@ -40,6 +40,11 @@ public class PlayerMovement : MonoBehaviour
             dialogueManager.ShowPrompt();
             dialogueTrigger = other.GetComponent<DialogueTrigger>();
         }
+
+        if (other.tag == "ExitDoor")
+        {
+            FindObjectOfType<LevelLoader>().LoadNextLevel();
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
