@@ -564,6 +564,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
+      propertyPath: dialogue.characterImage
+      value: 
+      objectReference: {fileID: 2800000, guid: f7d9fe6b35aa841a190e242abf7b7779, type: 3}
+    - target: {fileID: 650763707621025825, guid: 363a6b82e75ac48968cabc9e14d32ea9, type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 6
       objectReference: {fileID: 0}
