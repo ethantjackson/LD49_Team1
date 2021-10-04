@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class DialogueManager : MonoBehaviour
     public RawImage characterImage;
 
     public Animator animator;
+
+    //public int lastInterlude;
 
     Queue<string> sentences;
     bool waitText = false;
@@ -96,6 +99,21 @@ public class DialogueManager : MonoBehaviour
     {
         ShowPrompt();
         animator.SetBool("IsOpen", false);
+
+        //if (SceneManager.GetActiveScene().buildIndex == lastInterlude)
+        //{
+        //    FindObjectOfType<LevelLoader>().specialLoadNextLevel();
+        //}
+
+        if (nameText.text == "DOUBLE" && waitText == false)
+        {
+            FindObjectOfType<LevelLoader>().LoadNextLevel();
+        }
+
+        if(nameText.text == "NURSE" && SceneManager.GetActiveScene().buildIndex == 15 && waitText == false)
+        {
+            FindObjectOfType<LevelLoader>().LoadNextLevel(); //load credits
+        }
     }
 
     public void ShowPrompt ()

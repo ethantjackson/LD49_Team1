@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogueTrigger : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class DialogueTrigger : MonoBehaviour
     public Dialogue dialogue;
     public bool isTalking = false;
     public bool visited = false;
+    public bool lastDialogue = false;
 
     private void Start()
     {
@@ -22,6 +24,7 @@ public class DialogueTrigger : MonoBehaviour
                 visited = true;
 	        }
 	    }
+        
     }
 
     public void TriggerDialogue ()

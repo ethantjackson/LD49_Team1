@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6432895914796040289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.3, y: -0.7763, z: 0}
-  m_LocalScale: {x: 0.5916, y: 0.5288, z: 1}
+  m_LocalScale: {x: 0.5916, y: 0.5288, z: 0.45186773}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 128aa1db095adb94097a8f7037cf4069, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a43d738211cd9649aeb86ac8a91da51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,12 +96,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f46756f33360284fa5affdeaad2f3dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoader: {fileID: 0}
   dialogue:
     name: DOUBLE
     sentences:
     - you suck
     - lol
     characterImage: {fileID: 2800000, guid: 234fa4adc9182544f91580a8436baa7b, type: 3}
+  isTalking: 0
+  visited: 0
 --- !u!61 &6432895914796040288
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,7 +122,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.24, y: 5.12}
+    oldSize: {x: 2, y: 4.5}
     newSize: {x: 2.25, y: 2.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

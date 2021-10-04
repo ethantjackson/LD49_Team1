@@ -123,213 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &125145814
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -38.27693
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.09856182
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994229, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_Name
-      value: ExitDoor (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
---- !u!1001 &166200985
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6432895914796040289, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_Name
-      value: ShadowSprite  (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.1092703
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9770479
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.5121
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.1883
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: Are you listening to me, doctor?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: "You\u2019re a coward. A weakling."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: "There\u2019s nobody waiting for you. You can\u2019t just walk away
-        from this."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: "Don\u2019t you dare leave me -"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
-      value: "There\u2019s nothing past that door. NOTHING."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: "There\u2019s nothing past that door. NOTHING."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[8]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[9]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[10]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[11]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[12]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[13]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[14]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[15]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[16]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[17]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[18]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[19]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
 --- !u!1001 &406705404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -343,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3538230970551833424, guid: 8befe4e4ac7aa42b1a008001211c15af, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3538230970551833424, guid: 8befe4e4ac7aa42b1a008001211c15af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -408,11 +201,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.708035
+      value: -28.7137
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -461,7 +254,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5068829429155658052, guid: 55d418fe4ca1c4d0eb3c58dad6b768d5, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5068829429155658052, guid: 55d418fe4ca1c4d0eb3c58dad6b768d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -557,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 540490858096391853, guid: 32e1353fec6824261aeef4b2cf567978, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 540490858096391853, guid: 32e1353fec6824261aeef4b2cf567978, type: 3}
       propertyPath: m_LocalPosition.x
@@ -623,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_AnchorMax.x
@@ -827,7 +620,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1545575558
 PrefabInstance:
@@ -842,23 +635,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3271955
+      value: 1.2868289
       objectReference: {fileID: 0}
     - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9770638
+      value: 1.2669468
       objectReference: {fileID: 0}
     - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.52
+      value: -10.7
       objectReference: {fileID: 0}
     - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.23
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
       propertyPath: m_LocalPosition.z
@@ -999,7 +792,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4955041610906197174, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197174, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1043,7 +836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197175, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: charactersLeft.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4955041610906197175, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
       propertyPath: charactersLeft.Array.data[0]
@@ -1063,158 +856,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7455b3419ca44bbeba31249e379878a, type: 3}
---- !u!1001 &1629358977
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6432895914796040289, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_Name
-      value: ShadowSprite  (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2182227
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9770638
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040301, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: "What do you think you\u2019re doing? Don\u2019t ignore me, I\u2019m
-        speaking to you. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: What, have you had a change of heart?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: "Don\u2019t think I didn\u2019t see you take off your coat; you were
-        about to break."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: Do you think you can come back from this? Do you think you can beg for
-        forgiveness?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
-      value: 'Do you think you can forgive yourself? '
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: "There\u2019s nothing past that door. NOTHING."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[8]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[9]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[10]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[11]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[12]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[13]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[14]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[15]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[16]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[17]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[18]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6432895914796040303, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
-      propertyPath: dialogue.sentences.Array.data[19]
-      value: "Because you won\u2019t ever bother them again.\n"
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3d23a2bb1641045a1aa64558e0fd4d44, type: 3}
 --- !u!1001 &1749090373
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1224,7 +865,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1410,7 +1051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3457176578941064235, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3457176578941064235, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1520,7 +1161,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 788410259585039073, guid: 1e56b448698264e45a4b6d2e84796448, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 788410259585039073, guid: 1e56b448698264e45a4b6d2e84796448, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1577,64 +1218,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 788410259585039073, guid: 1e56b448698264e45a4b6d2e84796448, type: 3}
   m_PrefabInstance: {fileID: 1867363520}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2109094203
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -38.27693
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.09856182
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994217, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994229, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_Name
-      value: ExitDoor (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6014787524083994231, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: db1eb67ac32474de08692e4ce3c85fd1, type: 3}
