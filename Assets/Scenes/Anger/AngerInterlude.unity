@@ -198,15 +198,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.721603
+      value: -28.708035
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02078414
+      value: 0.020784378
       objectReference: {fileID: 0}
     - target: {fileID: 9175617799281935949, guid: ce7e9dc119cd846beafe0c16aea608a4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -655,7 +655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4534483116431204347, guid: 8c4d03c31d2ea440f9a33caf5443c263, type: 3}
       propertyPath: m_AnchorMax.x
@@ -859,7 +859,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1465937232
 PrefabInstance:
@@ -964,6 +964,17 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 8635288093941195010, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
   m_PrefabInstance: {fileID: 1465937232}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1465937235 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6978119094833242341, guid: 26e999c48c6494e45a34ba4b381db4d0, type: 3}
+  m_PrefabInstance: {fileID: 1465937232}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabfd5c4e2a83be4ebce295252134e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1495710319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1105,6 +1116,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 800805402539992524, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 800805402539992524, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 800805402539992524, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1465937235}
+    - target: {fileID: 800805402539992524, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 800805402539992524, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: updateVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 800805402539992524, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Music, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 800805402539992524, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4593804412716176074, guid: 8f72d5a4efed14a8ca671cb5dfda022e, type: 3}
       propertyPath: m_Name
       value: HUD

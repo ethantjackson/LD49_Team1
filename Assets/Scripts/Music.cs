@@ -12,6 +12,8 @@ public class Music : MonoBehaviour
     private double time;
     private int nextSource;
 
+    private float musicVolume = .15f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,5 +38,15 @@ public class Music : MonoBehaviour
 
             nextSource = 1 - nextSource; //Switch to other AudioSource
         }
+        
+        foreach(AudioSource audioSource in musicSources)
+        {
+            audioSource.volume = musicVolume;
+        }
+    }
+
+    public void updateVolume(float volume)
+    {
+        musicVolume = volume;
     }
 }
