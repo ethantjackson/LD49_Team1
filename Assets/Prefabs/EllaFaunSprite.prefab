@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 650763707621025826}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.9334, y: -1.44, z: 0}
-  m_LocalScale: {x: 0.6038, y: 0.6517, z: 1}
+  m_LocalScale: {x: 1.1292462, y: 1.1953977, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -101,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.04, y: 2.47}
+    oldSize: {x: 2, y: 4.5}
     newSize: {x: 2.04, y: 2.47}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -122,18 +122,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f46756f33360284fa5affdeaad2f3dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoader: {fileID: 0}
   dialogue:
     name: ELLA FAUN
     sentences:
+    - Ah... doctor.
+    - (w h a t   n o w ?)
+    - "I\u2019ve heard there\u2019s been a change of plans. You know, don't you? "
+    - '(d i d   y o u   a l w a y s   k n o w ?) '
+    - "We both know. It\u2019s risky. But I don\u2019t exactly have another choice,
+      do I?"
+    - (i   d i d n ' t   a s k   f o r   t h i s)
     - ...
-    - "Oh, hello doctor. I didn\u2019t notice you came in."
-    - "The hospital gardens are beautiful, aren\u2019t they? It reminds me of my
-      mother\u2019s old garden."
-    - 'She used to grow the most gorgeous asclepias flowers. '
-    - "When I was younger, I\u2019d always skip around in them."
-    - " She\u2019d get so angry at me for stepping on everything."
-    - Do you have a favorite flower, doctor?
-    - White lillies? (Chuckles) I see you have taste. They are beautiful.
-    - Are you going off now? Alright then, have a wonderful day!
-    characterImage: {fileID: 2800000, guid: be9cbb51ea6954ad3915f7b64245f365, type: 3}
+    - I wish... there was something else I -
+    - (y o u)
+    - '- could''ve done.'
+    characterImage: {fileID: 2800000, guid: 984fc9c0468534f67b2dcc753a84b8d4, type: 3}
   isTalking: 0
+  visited: 0
